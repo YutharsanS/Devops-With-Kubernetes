@@ -1,4 +1,4 @@
-The applications is located at `/apps/log_output` and image is pushed to `yutharsans/log_output:latest`
+The applications is located at `/log_output` and image is pushed to `yutharsans/log_output:latest`
 
 1. Create a cluster with `k3d cluster create -a 1`
 2. Deploy the respective image with `kubectl create deployment log-output --image=yutharsans/log_output:latest`
